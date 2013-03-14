@@ -17,5 +17,6 @@
 //= require ember-data
 //= require_self
 //= require blog
+//= require twitter/bootstrap
 Blog = Ember.Application.create();
 //= require_tree .

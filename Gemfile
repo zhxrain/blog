@@ -1,4 +1,4 @@
-source 'https://ruby.taobao.org'
+source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 
@@ -24,6 +24,9 @@ gem 'jquery-rails'
 
 gem 'ember-rails'
 
+gem "therubyracer"
+gem "less-rails"
+gem "twitter-bootstrap-rails"
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
