@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 
 gem 'ember-rails'
+gem 'ember-rest-rails'
 
 gem "therubyracer"
 gem "less-rails"

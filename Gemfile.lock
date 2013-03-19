@@ -53,6 +53,8 @@ GEM
       ember-source
       execjs (>= 1.2)
       railties (>= 3.1)
+    ember-rest-rails (0.0.2)
+      railties (>= 3.1)
     ember-source (0.0.1)
       handlebars-source (>= 1.0.0.rc3, < 1.0.0.rc4)
     erubis (2.7.0)
@@ -139,6 +141,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   ember-rails
+  ember-rest-rails
   jquery-rails
   less-rails
   rails (= 3.2.12)
