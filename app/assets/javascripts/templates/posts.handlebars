@@ -1,5 +1,9 @@
 <h1>Posts</h1>
+<ul>
+{{#each post in posts}}
+<li>{{#linkTo posts.post post}}{{post.title}}{{/linkTo}}</li>
+{{/each}}
+</ul>
 
-<p>This is Posts.</p>
-
+{{#linkTo posts.new}}New{{/linkTo}}
 {{outlet}}
