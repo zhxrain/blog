@@ -23,7 +23,11 @@ end
 gem 'jquery-rails'
 
 gem 'ember-rails'
+gem 'ember-rest-rails'
 
+gem "therubyracer"
+gem "less-rails"
+gem "twitter-bootstrap-rails"
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
