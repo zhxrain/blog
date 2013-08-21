@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 
 gem 'rails', '3.2.12'
 
@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 
 gem 'ember-rails'
+gem 'ember-source', '1.0.0.rc7'
 gem 'ember-rest-rails'
 
 gem "therubyracer"

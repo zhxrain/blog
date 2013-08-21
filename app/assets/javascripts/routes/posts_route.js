@@ -1,7 +1,4 @@
-Blog.PostsRoute = Ember.Route.extend({
-  setupController: function(controller, posts){
-    controller.set("content", posts);
-  },
+Blog.PostsIndexRoute = Ember.Route.extend({
   model: function(){
     return Blog.Post.find();
   }

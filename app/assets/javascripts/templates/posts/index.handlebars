@@ -1,0 +1,5 @@
+<ul>
+  {{#each controller}}
+  <li>{{#linkTo 'posts.post' this}}{{title}}{{/linkTo}}</li>
+  {{/each}}
+</ul>
