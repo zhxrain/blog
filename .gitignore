@@ -16,3 +16,6 @@
 
 #Ignore seeds
 /db/seeds.rb
+
+#Ignore gemset
+/.rvmrc

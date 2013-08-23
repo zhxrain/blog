@@ -13,7 +13,7 @@ class PostsController < ApplicationController
 
     respond_to do |format|
       format.html
-      format.json { render json: @post }
+      format.json { render json: @post.to_json(:include => :comment) }
     end
   end
 end
